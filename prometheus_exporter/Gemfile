@@ -2,4 +2,4 @@ source 'https://rubygems.org'
 
 ruby '2.5.3'
 
-gem 'prometheus_exporter', git: 'https://github.com/bpaquet/prometheus_exporter.git'
+gem 'prometheus_exporter', git: 'https://github.com/bpaquet/prometheus_exporter.git', ref: 'c2cfa5c539582048273fd226c98b69b7b6a8fb1d'

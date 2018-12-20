@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/bpaquet/prometheus_exporter.git
-  revision: 890cbcf4a993a84fa72bf2dee58f59d79fc831b2
+  revision: c2cfa5c539582048273fd226c98b69b7b6a8fb1d
+  ref: c2cfa5c539582048273fd226c98b69b7b6a8fb1d
   specs:
     prometheus_exporter (0.4.2)
 
