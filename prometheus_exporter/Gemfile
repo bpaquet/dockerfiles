@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+ruby '2.5.3'
+
+gem 'prometheus_exporter', git: 'https://github.com/bpaquet/prometheus_exporter.git'

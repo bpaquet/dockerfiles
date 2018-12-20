@@ -1,0 +1,21 @@
+GIT
+  remote: https://github.com/bpaquet/prometheus_exporter.git
+  revision: 890cbcf4a993a84fa72bf2dee58f59d79fc831b2
+  specs:
+    prometheus_exporter (0.4.2)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  prometheus_exporter!
+
+RUBY VERSION
+   ruby 2.5.3p105
+
+BUNDLED WITH
+   1.17.1
