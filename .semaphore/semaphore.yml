@@ -12,6 +12,7 @@ blocks:
         - name: checkout
           commands:
             - checkout
+            - ls
   - name: docker build
     dependencies:
       - bootstrap
@@ -19,4 +20,5 @@ blocks:
       jobs:
         - name: docker build
           commands:
+            - ls
             - docker build -t foo elasticsearch-2.4.4/
