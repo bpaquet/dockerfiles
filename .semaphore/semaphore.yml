@@ -13,7 +13,7 @@ blocks:
           commands:
             - checkout
             - docker build -t foo elasticsearch-2.4.4/
-  - name: 'Block #2'
+  - name: docker run
     dependencies:
       - docker build
     task:
@@ -23,7 +23,7 @@ blocks:
           os_image: ubuntu1804
         containers:
           - name: main
-            image: busybox
+            image: bash
             env_vars:
               - name: FOO_1
                 value: BAR_1
