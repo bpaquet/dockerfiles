@@ -9,6 +9,9 @@ blocks:
     dependencies: []
     task:
       jobs:
+        - name: ls
+          commands:
+            - ls
         - name: docker build
           commands:
             - docker build -t foo elasticsearch-2.4.4/
