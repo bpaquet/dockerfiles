@@ -1,0 +1,14 @@
+version: v1.0
+name: Build image
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+blocks:
+  - name: Docker build
+    dependencies: []
+    task:
+      jobs:
+        - name: docker build
+          commands:
+            - docker build -t foo elasticsearch-2.4.4/
