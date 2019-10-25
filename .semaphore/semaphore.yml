@@ -23,7 +23,7 @@ blocks:
           os_image: ubuntu1804
         containers:
           - name: main
-            image: bash
+            image: 'semaphoreci/ubuntu:18.04'
             env_vars:
               - name: FOO_1
                 value: BAR_1
