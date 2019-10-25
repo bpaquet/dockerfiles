@@ -5,20 +5,11 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: bootstrap
-    dependencies: []
-    task:
-      jobs:
-        - name: checkout
-          commands:
-            - checkout
-            - ls
   - name: docker build
-    dependencies:
-      - bootstrap
+    dependencies: []
     task:
       jobs:
         - name: docker build
           commands:
-            - ls
+            - checkout
             - docker build -t foo elasticsearch-2.4.4/
