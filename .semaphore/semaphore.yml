@@ -9,9 +9,9 @@ blocks:
     dependencies: []
     task:
       jobs:
-        - name: ls
+        - name: checkout
           commands:
-            - ls
+            - checkout
   - name: docker build
     dependencies:
       - bootstrap
